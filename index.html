@@ -1,739 +1,200 @@
-<html lang="en">
-  <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="css/style.css" />
-      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"/>
-      <title>Responsive Car</title>
-  </head>
-  <body>
-    <header id="header">
-        <nav class="nav container">
-            <a href="" class="nav__logo">
-              <i class="ri-steering-2-line"></i>
-              Electric World Car
-            </a>
-
-            <div class="nav__menu" id="nav-menu">
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <a href="#home" class="nav__link active-link">Home</a>
-                </li>
-                <li class="nav__item">
-                  <a href="#about" class="nav__link">About</a>
-                </li>
-                <li class="nav__item">
-                  <a href="#popular" class="nav__link">Popular</a>
-                </li>
-                <li class="nav__item">
-                  <a href="#featured" class="nav__link">Featured</a>
-                </li>
-              </ul>
-            </div>
-
-        <!-- Toggle button -->
-        <div class="nav__toggle" id="nav-toggle">
-          <i class="ri-menu-line"></i>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eletric world Car</title>
+</head>
+<body>
+    <header id="topo">
+        <div class="menu-logo">
+            <img class="logo" src="imagens/logo-site.svg" alt="">
+            <strong>Eletric world Car</strong>
         </div>
-      </nav>
+
+        <nav id="nav">
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Popular</a></li>
+                <li><a href="">Feaured</a></li>
+                <li><a href=""><img src="imagens/conta.svg" alt=""></a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- =========== MAIN ================= -->
-    <main class="main">
-      <!-- ============= HOME ============ -->
-      <div class="shape shape__big"></div>
-      <div class="shape shape__small"></div>
-
-      <section class="home section" id="home">
-        <div class="home__container container grid">
-          <div class="home__data">
-            <h1 class="home__title">Escolha o melhor carro</h1>
-
-            <h2 class="home__subtitle">Porsche Mission E</h2>
-
-            <h3 class="home__elec">
-              <i class="ri-flashlight-fill"></i>
-              Electric Car
-            </h3>
-          </div>
-
-          <img
-            src="imagem/home.png"
-            alt=""
-            class="home__img"
-          />
-
-          <div class="home__car">
-            <div class="home__car-data">
-              <div class="home__car-icon">
-                <i class="ri-temp-cold-line"></i>
-              </div>
-              <h2 class="home__car-number">24°</h2>
-              <h3 class="home__car-name">TEMPERATURA</h3>
+    <main id="corpo">
+        <section id="Home" class="margen">
+            <h1>escolha o melhor carro</h1>
+            <strong>Porsche Mission E</strong>
+            <p>Eletric Car</p>
+            <img class="home-img" src="imagens/home.png" alt="">
+    
+            <div class="dados">
+                <div>
+                    <img src="imagens/temp.svg" alt="">
+                    <h3>24°</h3>
+                    <p>Temparatura</p>
+                </div>
+    
+                <div>
+                    <img src="imagens/dashboard.svg" alt="">
+                    <h3>220 - 260 Km/h</h3>
+                    <p>Quilometragem</p>
+                </div>
+    
+                <div>
+                    <img src="imagens/battery.svg" alt="">
+                    <h3>100%</h3>
+                    <p>Bateria</p>
+                </div>
             </div>
+        </section>
 
-            <div class="home__car-data">
-              <div class="home__car-icon">
-                <i class="ri-dashboard-3-line"></i>
-              </div>
-              <h2 class="home__car-number">220 - 260 km/h</h2>
-              <h3 class="home__car-name">QUILOMETRAGEM</h3>
+        <section id="Sobre" class="margen">
+            <div>
+                <img class="sobre-img" src="imagens/sobre.png" alt="">
+                <div class="caixa-texto">
+                    <strong>2.500+</strong>
+                    <p >Sobrecarrega lugares ao longo de rotas populares</p>
+                </div>
             </div>
-
-            <div class="home__car-data">
-              <div class="home__car-icon">
-                <i class="ri-flashlight-fill"></i>
-              </div>
-              <h2 class="home__car-number">100%</h2>
-              <h3 class="home__car-name">BATERIA</h3>
-            </div>
-          </div>
-
-          <a href="#" class="home__button">START</a>
-        </div>
-      </section>
-
-      <!-- ======== ABOUT ==============-->
-      <section class="about section" id="about">
-        <div class="about__container container grid">
-          <div class="about__group">
-            <img
-              src="imagem/about.png"
-              alt=""
-              class="about__img"
-            />
-            <div class="about__card">
-              <h3 class="about__card-title">2.500+</h3>
-              <p class="about__card-description">
-               Sobrecarrega lugares ao longo de rotas populares
-              </p>
-            </div>
-          </div>
-
-          <div class="about__data">
-            <h2 class="section__title about__title">
-              Carros elétricos <br />
-              Tecnologia do futuro
-            </h2>
-
-            <p class="about__description">
-              Veja o futuro com carros elétricos de alto desempenho produzido pela marca de renome. Eles apresentam construções e designs futurista com plataformas novas e inovadoras que duram muito tempo.
+            <div class="texto">
+                <h2>Carros eletricos <br>Tecnologia do futuro</h2>
+            <p>
+                Veja o futuro com carros elétricos de alto desempenho produzido pela marca de renome. Eles apresentam construções e designs futurista com plataformas novas e inovadoras que duram muito tempo.
             </p>
-
-            <a href="#" class="button">Saber Mais</a>
-          </div>
-        </div>
-      </section>
-
-      <!-- ========== POPULAR =========== -->
-      <section class="popular section" id="popular">
-        <h2 class="section__title">
-          Escolha seu carro elétrico <br />
-          Da marca porsche
-        </h2>
-        
-      <section class="logos section">
-        
-        <div class="logos__container container grid">
-        
-         <div class="logos__content">
-            <img
-              src="imagem/logo1.png"
-              alt=""
-              class="logos__img"
-            />
-          </div>
-
-        <div class="popular__container container swiper">
-          <div class="swiper-wrapper">
-            <article class="popular__card swiper-slide">
-              <div class="shape__smaller"></div>
-              <h1 class="popular__title">Porsche</h1>
-              <h3 class="popular__subtitle">911 Turbo S</h3>
-
-              <img
-                src="imagem/popular1.png"
-                alt=""
-                class="popular__img"
-              />
-
-              <div class="popular__data">
-                <div class="popular__data-group">
-                  <i class="ri-dashboard-3-line"></i> 2.7Sec
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-funds-box-line"></i> 330 Km/h
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-charging-pile-2-line"></i> Electric
-                </div>
-              </div>
-
-              <h3 class="popular__price">R$ 1.081.000,00</h3>
-
-              <button class="button popular__button">
-                <i class="ri-shopping-bag-2-line"></i>
-              </button>
-            </article>
-
-            <article class="popular__card swiper-slide">
-              <div class="shape__smaller"></div>
-              <h1 class="popular__title">Porsche</h1>
-              <h3 class="popular__subtitle">Taycan Turbo S</h3>
-
-              <img
-                src="imagem/popular2.png"
-                alt=""
-                class="popular__img"
-              />
-
-              <div class="popular__data">
-                <div class="popular__data-group">
-                  <i class="ri-dashboard-3-line"></i> 3.2Sec
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-funds-box-line"></i> 260 Km/h
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-charging-pile-2-line"></i> Electric
-                </div>
-              </div>
-
-              <h3 class="popular__price">R$ 1.042.201,00</h3>
-
-              <button class="button popular__button">
-                <i class="ri-shopping-bag-2-line"></i>
-              </button>
-            </article>
-
-            <article class="popular__card swiper-slide">
-              <div class="shape__smaller"></div>
-              <h1 class="popular__title">Porsche</h1>
-              <h3 class="popular__subtitle">Turbo S Cross</h3>
-
-              <img
-                src="imagem/popular3.png"
-                alt=""
-                class="popular__img"
-              />
-
-              <div class="popular__data">
-                <div class="popular__data-group">
-                  <i class="ri-dashboard-3-line"></i> 5.1Sec
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-funds-box-line"></i> 220 Km/h
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-charging-pile-2-line"></i> Electric
-                </div>
-              </div>
-
-              <h3 class="popular__price">R$ 1.350.800,00</h3>
-
-              <button class="button popular__button">
-                <i class="ri-shopping-bag-2-line"></i>
-              </button>
-            </article>
-
-            <article class="popular__card swiper-slide">
-              <div class="shape__smaller"></div>
-              <h1 class="popular__title">Porsche</h1>
-              <h3 class="popular__subtitle">Boxter 718</h3>
-
-              <img
-                src="imagem/popular4.png"
-                alt=""
-                class="popular__img"
-              />
-
-              <div class="popular__data">
-                <div class="popular__data-group">
-                  <i class="ri-dashboard-3-line"></i> 4.9Sec
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-funds-box-line"></i> 275 Km/h
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-charging-pile-2-line"></i> Electric
-                </div>
-              </div>
-
-              <h3 class="popular__price">R$ 859.000,00 </h3>
-
-              <button class="button popular__button">
-                <i class="ri-shopping-bag-2-line"></i>
-              </button>
-            </article>
-
-            <article class="popular__card swiper-slide">
-              <div class="shape__smaller"></div>
-              <h1 class="popular__title">Porsche</h1>
-              <h3 class="popular__subtitle">Cayman</h3>
-
-              <img
-                src="imagem/popular5.png"
-                alt=""
-                class="popular__img"
-              />
-
-              <div class="popular__data">
-                <div class="popular__data-group">
-                  <i class="ri-dashboard-3-line"></i> 4.9Sec
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-funds-box-line"></i> 275 Km/h
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-charging-pile-2-line"></i> Electric
-                </div>
-              </div>
-
-              <h3 class="popular__price">R4 715.900,00</h3>
-
-              <button class="button popular__button">
-                <i class="ri-shopping-bag-2-line"></i>
-              </button>
-            </article>
-          </div>
-
-          <div class="swiper-pagination"></div>
-        </div>
-      </section>
-
-      <!-- ======== FEATURES ============= -->
-      <section class="features section">
-        <h2 class="section__title">Mais recursos</h2>
-
-        <div class="features__container container grid">
-          <div class="features__group">
-            <img
-              src="imagem/features.png"
-              alt=""
-              class="features__img"
-            />
-            <div class="features__card features__card-1">
-              <h3 class="features__card-title">800v</h3>
-              <p class="features__card-description">Turbo <br />Volts</p>
+            <button>Saber Mais</button>
             </div>
+        </section>
 
-            <div class="features__card features__card-2">
-              <h3 class="features__card-title">15</h3>
-              <p class="features__card-description">
-                Min <br />
-                Tempo de abastecimento
-              </p>
-            </div>
+        <section id="Popular">
+            <h2>Escolha seu carro eletrico <br>Da marca Porsche</h2>
 
-            <div class="features__card features__card-3">
-              <h3 class="features__card-title">+500</h3>
-              <p class="features__card-description">
-                Km <br />
-                De viajem
-              </p>
-            </div>
-          </div>
-        </div>
+            <ul class="conjunto-card">
+                <li class="card">
+                    <h3>Porsche</h3>
+                    <p>911 Turbo S</p>
+                    <img class="carro" src="imagens/carros/911 turbo s.png" alt="">
+                    <div class="info">
+                        <div>
+                            <img src="imagens/dashboard.svg" alt="">
+                            <p>2.7 Sec</p>
+                        </div>
 
-        <img
-          src="imagem/map.svg"
-          alt=""
-          class="features__map"
-        />
-      </section>
+                        <div>
+                            <img src="imagens/posto.svg" alt="">
+                            <p>Eletrico</p>
+                        </div>
 
-      <!-- =========== FEATURED ============= -->
-      <section class="featured section" id="featured">
-        <h2 class="section__title">Carros de luxo em destaque</h2>
+                        <div>
+                            <img src="imagens/velocidade.svg" alt="">
+                            <p>330 Km/h</p>
+                        </div>
+                    </div>
+                    <h3>R$ 1.081.000,00</h3>
+                </li>
 
-        <div class="featured__container container">
-          <ul class="featured__filters">
-            <li>
-              <button class="featured__item active-featured" data-filter="all">
-                <span>All's</span>
-              </button>
-            </li>
+                <li class="card">
+                    <h3>Porsche</h3>
+                    <p>Taycan Turbo S</p>
+                    <img class="carro" src="imagens/carros/taycan turbo s.png" alt="">
+                    <div class="info">
+                        <div>
+                            <img src="imagens/dashboard.svg" alt="">
+                            <p>3.2 Sec</p>
+                        </div>
 
-            <li>
-              <button class="featured__item" data-filter=".tesla">
-                <img
-                  src="imagem/logo3.png"
-                  alt=""
-                />
-              </button>
-            </li>
+                        <div>
+                            <img src="imagens/posto.svg" alt="">
+                            <p>Eletrico</p>
+                        </div>
 
-            <li>
-              <button class="featured__item" data-filter=".audi">
-                <img
-                  src="imagem/logo2.png"
-                  alt=""
-                />
-              </button>
-            </li>
+                        <div>
+                            <img src="imagens/velocidade.svg" alt="">
+                            <p>260 Km/h</p>
+                        </div>
+                    </div>
+                    <h3>R$ 1.042.201,00</h3>
+                </li>
 
-            <li>
-              <button class="featured__item" data-filter=".porsche">
-                <img
-                  src="imagem/logo1.png"
-                  alt=""
-                />
-              </button>
-            </li>
-          </ul>
+                <li class="card">
+                    <h3>Porsche</h3>
+                    <p>Turbo S Cross</p>
+                    <img class="carro" src="imagens/carros/turbo s cross.png" alt="">
+                    <div class="info">
+                        <div>
+                            <img src="imagens/dashboard.svg" alt="">
+                            <p>5.1 Sec</p>
+                        </div>
 
-          <div class="featured__content grid">
-            <article class="featured__card mix tesla">
-              <div class="shape shape__smaller"></div>
+                        <div>
+                            <img src="imagens/posto.svg" alt="">
+                            <p>Eletrico</p>
+                        </div>
 
-              <h1 class="featured__title">Tesla</h1>
+                        <div>
+                            <img src="imagens/velocidade.svg" alt="">
+                            <p>220 Km/h</p>
+                        </div>
+                    </div>
+                    <h3>R$ 1.350.800,00</h3>
+                </li>
 
-              <h3 class="featured__subtitle">Model X</h3>
+                <li class="card">
+                    <h3>Porsche</h3>
+                    <p>Boxter 718</p>
+                    <img class="carro" src="imagens/carros/boxter 718.png" alt="">
+                    <div class="info">
+                        <div>
+                            <img src="imagens/dashboard.svg" alt="">
+                            <p>4.9 Sec</p>
+                        </div>
 
-              <img
-                src="imagem/featured1.png"
-                alt=""
-              />
-              
-              <div class="popular__data">
-                <div class="popular__data-group">
-                  <i class="ri-dashboard-3-line"></i> 2.5Sec
-                </div>
+                        <div>
+                            <img src="imagens/posto.svg" alt="">
+                            <p>Eletrico</p>
+                        </div>
 
-                <div class="popular__data-group">
-                  <i class="ri-funds-box-line"></i> 250 Km/h
-                </div>
+                        <div>
+                            <img src="imagens/velocidade.svg" alt="">
+                            <p>275 Km/h</p>
+                        </div>
+                    </div>
+                    <h3>R$ 859.000,00</h3>
+                </li>
 
-                <div class="popular__data-group">
-                  <i class="ri-charging-pile-2-line"></i> Electric
-                </div>
-              </div>
+                <li class="card">
+                    <h3>Porsche</h3>
+                    <p>Cayman</p>
+                    <img class="carro" src="imagens/carros/cayman.png" alt="">
+                    <div class="info">
+                        <div>
+                            <img src="imagens/dashboard.svg" alt="">
+                            <p>4.9 Sec</p>
+                        </div>
 
-              <h3 class="featured__price">R$ 1.180.000,00</h3>
+                        <div>
+                            <img src="imagens/posto.svg" alt="">
+                            <p>Eletrico</p>
+                        </div>
 
-              <button class="button featured__button">
-                <i class="ri-shopping-bag-2-line"></i>
-              </button>
-            </article>
+                        <div>
+                            <img src="imagens/velocidade.svg" alt="">
+                            <p>275 Km/h</p>
+                        </div>
+                    </div>
+                    <h3>R$ 715.900,00</h3>
+                </li>
+            </ul>
+        </section>
 
-            <article class="featured__card mix tesla">
-              <div class="shape shape__smaller"></div>
-
-              <h1 class="featured__title">Tesla</h1>
-
-              <h3 class="featured__subtitle">Model 3</h3>
-
-              <img
-                src="imagem/featured2.png"
-                alt=""
-              />
-              
-              <div class="popular__data">
-                <div class="popular__data-group">
-                  <i class="ri-dashboard-3-line"></i> 3.1Sec
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-funds-box-line"></i> 261 Km/h
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-charging-pile-2-line"></i> Electric
-                </div>
-              </div>
-
-              <h3 class="featured__price">R$ 689.000,00</h3>
-
-              <button class="button featured__button">
-                <i class="ri-shopping-bag-2-line"></i>
-              </button>
-            </article>
-
-            <article class="featured__card mix audi">
-              <div class="shape shape__smaller"></div>
-
-              <h1 class="featured__title">Audi</h1>
-
-              <h3 class="featured__subtitle">E-tron</h3>
-
-              <img
-                src="imagem/featured3.png"
-                alt=""
-              />
-              
-              <div class="popular__data">
-                <div class="popular__data-group">
-                  <i class="ri-dashboard-3-line"></i> 4.5Sec
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-funds-box-line"></i> 210 Km/h
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-charging-pile-2-line"></i> Electric
-                </div>
-              </div>
-
-              <h3 class="featured__price">R$ 817.900,00</h3>
-
-              <button class="button featured__button">
-                <i class="ri-shopping-bag-2-line"></i>
-              </button>
-            </article>
-
-            <article class="featured__card mix porsche">
-              <div class="shape shape__smaller"></div>
-
-              <h1 class="featured__title">Porsche</h1>
-
-              <h3 class="featured__subtitle">Boxter 987</h3>
-
-              <img
-                src="imagem/featured4.png"
-                alt=""
-              />
-              
-              <div class="popular__data">
-                <div class="popular__data-group">
-                  <i class="ri-dashboard-3-line"></i> 6.9Sec
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-funds-box-line"></i> 387 Km/h
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-charging-pile-2-line"></i> Electric
-                </div>
-              </div>
-
-              <h3 class="featured__price">R$ 614.900,00</h3>
-
-              <button class="button featured__button">
-                <i class="ri-shopping-bag-2-line"></i>
-              </button>
-            </article>
-
-            <article class="featured__card mix porsche">
-              <div class="shape shape__smaller"></div>
-
-              <h1 class="featured__title">Porsche</h1>
-
-              <h3 class="featured__subtitle">Panamera</h3>
-
-              <img
-                src="imagem/featured5.png"
-                alt=""
-              />
-              
-              <div class="popular__data">
-                <div class="popular__data-group">
-                  <i class="ri-dashboard-3-line"></i> 3.2Sec
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-funds-box-line"></i> 315 Km/h
-                </div>
-
-                <div class="popular__data-group">
-                  <i class="ri-charging-pile-2-line"></i> Electric
-                </div>
-              </div>
-
-              <h3 class="featured__price">R$ 1.139.000,00</h3>
-
-              <button class="button featured__button">
-                <i class="ri-shopping-bag-2-line"></i>
-              </button>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <!-- =========== OFFER ================ -->
-      <section class="offer section">
-        <div class="offer__container container grid">
-          <img
-            src="imagem/offer-bg.png"
-            alt=""
-            class="offer__bg"
-          />
-
-          <div class="offer__data">
-            <h2 class="section__title offer__title">
-              Você quer receber <br />
-              Ofertas Especiais?
-            </h2>
-
-            <p class="offer__description">
-              Seja o primeiro a receber todas as informações sobre nossos produtos e carros novos por e-mail, assinando nossa lista de e-mail.
-            </p>
-
-            <a href="#" class="button"> Inscreva-se agora </a>
-          </div>
-
-          <img
-            src="imagem/offer.png"
-            alt=""
-            class="offer__img"
-          />
-        </div>
-      </section>
-
-      <!-- ==================== LOGOS ============= -->
-      <section class="logos section">
+        <section>
+            
+        </section>
         
-        <div class="logos__container container grid">
-          
-          <div class="logos__content">
-            <img
-              src="imagem/logo1.png"
-              alt=""
-              class="logos__img"
-            />
-          </div>
-
-          <div class="logos__content">
-            <img
-              src="imagem/logo2.png"
-              alt=""
-              class="logos__img"
-            />
-          </div>
-
-          <div class="logos__content">
-            <img
-              src="imagem/logo3.png"
-              alt=""
-              class="logos__img"
-            />
-          </div>
-
-        </div>
-      </section>
-
-      <!-- ============== FOOTER =============== -->
-      <footer class="footer section">
-        <div class="shape shape__big"></div>
-        <div class="shape shape__small"></div>
-
-        <div class="footer__container container grid">
-          <div class="footer__content">
-            <a href="" class="footer__logo">
-              <i class="ri-steering-line"></i> Electric World Car
-            </a>
-            <p class="footer__description">
-              Oferecemos os melhores carros elétricos de <br />
-              as marcas mais reconhecidas <br />
-              do mundo.
-            </p>
-          </div>
-
-          <div class="footer__content">
-            <h3 class="footer__title">Companhia</h3>
-
-            <ul class="footer__links">
-              <li>
-                <a href="#" class="footer__link">About</a>
-              </li>
-
-              <li>
-                <a href="#" class="footer__link">Carros</a>
-              </li>
-
-              <li>
-                <a href="#" class="footer__link">História</a>
-              </li>
-
-              <li>
-                <a href="#" class="footer__link">Shop</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer__content">
-            <h3 class="footer__title">informações</h3>
-
-            <ul class="footer__links">
-              <li>
-                <a href="#" class="footer__link">Solicite uma cotação</a>
-              </li>
-
-              <li>
-                <a href="#" class="footer__link">Encontre um revendedor</a>
-              </li>
-
-              <li>
-                <a href="#" class="footer__link">Contate-Nos</a>
-              </li>
-
-              <li>
-                <a href="#" class="footer__link">Serviços</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer__content">
-            <h3 class="footer__title">Siga-nos</h3>
-
-            <ul class="footer__social">
-              <a
-                href="https://ww.facebook.com/"
-                target="_blank"
-                class="footer__social-link"
-              >
-                <i class="ri-facebook-fill"></i>
-              </a>
-
-              <a
-                href="https://www.instagram.com/"
-                target="_blank"
-                class="footer__social-link"
-              >
-                <i class="ri-instagram-line"></i>
-              </a>
-
-              <a
-                href="https://twitter.com/"
-                target="_blank"
-                class="footer__social-link"
-              >
-                <i class="ri-twitter-line"></i>
-              </a>
-            </ul>
-          </div>
-        </div>
-
-      </footer>
     </main>
-
-    <!-- ========= SCROLL UP ============= -->
-    <a href="" class="scrollup" id="scroll-up">
-      <i class="ri-arrow-up-line"></i>
-    </a>
-
-    <!-- ========== SCROLL REVEAL ============= -->
-    <script src="/assets/scrollreveal.min.js"></script>
-
-    <!-- =========SWIPER JS ============= -->
-    <script src="/assets/swiper-bundle.min.js"></script>
-
-    <!-- ============ MIXITUP JS ========== -->
-    <script src="/assets/mixitup.min.js"></script>
-
-    <!-- ========= MAIN JS ============= -->
-    <script src="/script.js"></script>
-  </body>
+</body>
 </html>

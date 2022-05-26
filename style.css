@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+}
+
+li, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+h1, h2, h3, p, a, strong{
+    color: white;
+    margin-top: 0px;
+}
+
+.margen{
+    margin-bottom: 90px;
+}
+
+/*--------------------------------------topo-----------------------------*/
+
+#topo{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E2838;
+    background: linear-gradient(0deg, #00000033, #00000033), #1e283885;
+    backdrop-filter: blur(5px);
+    height: 60px;
+}
+
+.menu-logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav{
+    height: 24px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0px;
+}
+
+/*--------------------------------------main-----------------------------*/
+
+#corpo{
+    text-align: center;
+    background-color: #0A0A0B;
+    padding-top: 90px;
+}
+
+.home-img{
+    width: 370px;
+    margin-bottom: 30px;
+}
+
+.dados{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*--------------------------------------sobre-----------------------------*/
+
+#Sobre{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sobre-img{
+    width: 480px;
+}
+
+.texto{
+    width: 448px;
+}
+
+.texto p{
+    text-align: justify;
+}
+
+.caixa-texto{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #1e283885;
+    backdrop-filter: blur(2px);
+    width: 158px;
+    padding: 10px;
+    position: relative;
+    bottom: 85px;
+    left: 310px;
+    border-radius: 20px;
+}
+
+/*--------------------------------------popular-----------------------------*/
+
+.conjunto-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*--------------------------------------card-----------------------------*/
+
+.card{
+    text-align: left;
+    width: 210px;
+    height: 269px;
+    padding: 32px 24px 24px 24px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: #111213;
+    border-radius: 10px;
+}
+
+.carro{
+    width: 180px;
+    margin-left: 32px;
+}
+
+.info{
+    margin: 10px 0px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info div{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-right: 30px;
+}
+
+.info div img{
+    margin-right: 5px;
+}
