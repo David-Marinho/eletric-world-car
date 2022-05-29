@@ -9,17 +9,16 @@
 </head>
 <body>
     <header id="topo">
-        <div class="menu-logo">
-            <img class="logo" src="imagens/logo-site.svg" alt="">
+        <div class="logo">
+            <img class="logo-img" src="imagens/logo.svg" alt="">
             <strong>Eletric world Car</strong>
         </div>
 
         <nav id="nav">
             <ul class="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Popular</a></li>
-                <li><a href="">Feaured</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Carros">Carros</a></li>
                 <li><a href=""><img src="imagens/conta.svg" alt=""></a></li>
             </ul>
         </nav>
@@ -27,9 +26,8 @@
 
     <main id="corpo">
         <section id="Home" class="margen">
-            <h1>escolha o melhor carro</h1>
-            <strong>Porsche Mission E</strong>
-            <p>Eletric Car</p>
+            <h1 class="titulo-home">Escolha o melhor carro</h1>
+            <h2 class="nome"><strong>Porsche Mission E</strong></h2>
             <img class="home-img" src="imagens/home.png" alt="">
     
             <div class="dados">
@@ -51,6 +49,8 @@
                     <p>Bateria</p>
                 </div>
             </div>
+
+            
         </section>
 
         <section id="Sobre" class="margen">
@@ -66,11 +66,11 @@
             <p>
                 Veja o futuro com carros elétricos de alto desempenho produzido pela marca de renome. Eles apresentam construções e designs futurista com plataformas novas e inovadoras que duram muito tempo.
             </p>
-            <button>Saber Mais</button>
+            <button class="botao">Saber Mais</button>
             </div>
         </section>
 
-        <section id="Popular">
+        <section id="Carros" class="margen">
             <h2>Escolha seu carro eletrico <br>Da marca Porsche</h2>
 
             <ul class="conjunto-card">
@@ -191,10 +191,49 @@
             </ul>
         </section>
 
-        <section>
-            
+        <section id="newsletter">
+          <div class="conteudo">
+            <div>
+              <h2>Você quer receber ofertas especiais?</h2>
+
+              <p>
+                Seja o primeiro a receber todas as informações sobre nossos produtos e carros novos por e-mail, assinando nossa lista de e-mail.
+              </p>
+  
+              <a class="botao" href="">Inscreva-se agora</a>
+            </div>
+            <img src="imagens/carros/offer.png" alt="">
+          </div>
         </section>
-        
     </main>
+
+    <footer id="rodape" class="margen">
+        <div >
+            <div class="logo">
+                <img class="logo-img" src="imagens/logo.svg" alt="">
+                <h4>Eletric world Car</h4> 
+            </div>
+            
+            <p class="desc">
+                Oferecemos os melhores carros elétricos de
+                as marcas mais reconhecidas
+                do mundo.
+            </p>
+        </div>
+
+        <div>
+            <h4>Informaçoes</h4> 
+            <p><a href="">Solicite uma cotação</a></p>
+            <p><a href="">Encontre um revendedor</a></p>
+            <p><a href="">Contate-nos</a></p>
+            <p><a href="">Serviços</a></p>
+        </div>
+        <div>
+            <h4>Siga-nos</h4>
+            <a href=""><img src="imagens/facebook-icon.svg" alt="Facebook"></a>
+            <a href=""><img src="imagens/instagram-icon.svg" alt="Instagram"></a>
+            <a href=""><img src="imagens/twitter-icon.svg" alt="Twitter"></a>
+        </div>
+    </footer>
 </body>
 </html>

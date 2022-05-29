@@ -1,19 +1,27 @@
+html{
+    font-family: Verdana;
+    color: white;
+}
+
 body{
     margin: 0px;
+    padding-left: 10px;
+    background-color: #0A0A0B;
 }
 
 li, a{
     list-style: none;
     text-decoration: none;
+    color: white;
 }
 
 h1, h2, h3, p, a, strong{
-    color: white;
     margin-top: 0px;
 }
 
-.margen{
+section{
     margin-bottom: 90px;
+    padding-top: 70px;
 }
 
 /*--------------------------------------topo-----------------------------*/
@@ -30,7 +38,7 @@ h1, h2, h3, p, a, strong{
     height: 60px;
 }
 
-.menu-logo{
+.logo{
     display: flex;
     align-items: center;
     
@@ -51,8 +59,12 @@ h1, h2, h3, p, a, strong{
 
 #corpo{
     text-align: center;
-    background-color: #0A0A0B;
     padding-top: 90px;
+    
+}
+
+.titulo-home{
+    margin-bottom: 50px;
 }
 
 .home-img{
@@ -60,11 +72,24 @@ h1, h2, h3, p, a, strong{
     margin-bottom: 30px;
 }
 
-.dados{
-    display: flex;
-    justify-content: space-evenly;
+.nome{
+    margin-bottom: 20px;
 }
 
+.dados{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+}
+
+.dados div{
+    margin-left: 10px;
+}
+
+.dados h3{
+    margin-bottom: 10px;
+}
+ 
 /*--------------------------------------sobre-----------------------------*/
 
 #Sobre{
@@ -136,4 +161,54 @@ h1, h2, h3, p, a, strong{
 
 .info div img{
     margin-right: 5px;
+}
+
+/*--------------------------------------newsletter-----------------------------*/
+
+#newsletter{
+    margin-top: 90px;
+    padding-bottom: 40px;
+    background-color: #ffffff2d;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo div{
+    width: 470px;
+}
+
+.conteudo div p{
+    text-align: justify;
+}
+
+.conteudo img{
+    width: 450px;
+}
+
+.botao{
+    position: relative;
+    top: 40px;
+    padding: 20px 40px;
+    background-color: #4b78cc;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.botao:hover{
+    background-color: #306BD9;
+}
+
+/*--------------------------------------rodape-----------------------------*/
+
+#rodape{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding-bottom: 20px;
+}
+
+.desc{
+    width: 400px;
 }
