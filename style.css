@@ -55,6 +55,16 @@ section{
     margin: 0px;
 }
 
+.itens{
+    padding: 20px;
+}
+
+
+
+.menu li:hover{
+    background-color: #306BD9;
+}
+
 /*--------------------------------------main-----------------------------*/
 
 #corpo{
