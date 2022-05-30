@@ -174,6 +174,20 @@ section{
     margin-right: 5px;
 }
 
+.comprar{
+    position: relative;
+    bottom: 50px;
+    left: 185px;
+    padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: #4b78cc;
+    transition: 0.5s;
+}
+
+.comprar:hover{
+    background-color: #306BD9;
+}
+
 /*--------------------------------------newsletter-----------------------------*/
 
 #newsletter{
