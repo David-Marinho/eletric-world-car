@@ -1,0 +1,239 @@
+html{
+    font-family: Verdana;
+    color: white;
+}
+
+body{
+    margin: 0px;
+    padding-left: 10px;
+    background-color: #0A0A0B;
+}
+
+li, a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2, h3, p, a, strong{
+    margin-top: 0px;
+}
+
+section{
+    margin-bottom: 90px;
+    padding-top: 70px;
+}
+
+/*--------------------------------------topo-----------------------------*/
+
+#topo{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E2838;
+    background: linear-gradient(0deg, #00000033, #00000033), #1e283885;
+    backdrop-filter: blur(5px);
+    height: 60px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav{
+    height: 24px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 0px;
+    padding-right: 25px;
+}
+
+.itens{
+    padding: 20px;
+}
+
+
+
+.menu li:hover{
+    background-color: #306BD9;
+}
+
+/*--------------------------------------main-----------------------------*/
+
+#corpo{
+    text-align: center;
+    padding-top: 90px;
+    
+}
+
+.titulo-home{
+    margin-bottom: 50px;
+}
+
+.home-img{
+    width: 370px;
+    margin-bottom: 30px;
+}
+
+.nome{
+    margin-bottom: 20px;
+}
+
+.dados{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+}
+
+.dados div{
+    margin-left: 10px;
+}
+
+.dados h3{
+    margin-bottom: 10px;
+}
+ 
+/*--------------------------------------sobre-----------------------------*/
+
+#Sobre{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sobre-img{
+    width: 480px;
+}
+
+.texto{
+    width: 448px;
+}
+
+.texto p{
+    text-align: justify;
+}
+
+.caixa-texto{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #1e283885;
+    backdrop-filter: blur(2px);
+    width: 158px;
+    padding: 10px;
+    position: relative;
+    bottom: 85px;
+    left: 310px;
+    border-radius: 20px;
+}
+
+/*--------------------------------------popular-----------------------------*/
+
+.conjunto-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*--------------------------------------card-----------------------------*/
+
+.card{
+    text-align: left;
+    width: 210px;
+    height: 269px;
+    padding: 32px 24px 24px 24px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: #111213;
+    border-radius: 10px;
+}
+
+.carro{
+    width: 180px;
+    margin-left: 32px;
+}
+
+.info{
+    margin: 10px 0px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info div{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-right: 30px;
+}
+
+.info div img{
+    margin-right: 5px;
+}
+
+.comprar{
+    position: relative;
+    bottom: 50px;
+    left: 185px;
+    padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: #4b78cc;
+    transition: 0.5s;
+}
+
+.comprar:hover{
+    background-color: #306BD9;
+}
+
+/*--------------------------------------newsletter-----------------------------*/
+
+#newsletter{
+    margin-top: 90px;
+    padding-bottom: 40px;
+    background-color: #ffffff2d;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo div{
+    width: 470px;
+}
+
+.conteudo div p{
+    text-align: justify;
+}
+
+.conteudo img{
+    width: 450px;
+}
+
+.botao{
+    position: relative;
+    top: 40px;
+    padding: 20px 40px;
+    background-color: #4b78cc;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.botao:hover{
+    background-color: #306BD9;
+}
+
+/*--------------------------------------rodape-----------------------------*/
+
+#rodape{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding-bottom: 20px;
+}
+
+.desc{
+    width: 400px;
+}
