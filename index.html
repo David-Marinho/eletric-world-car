@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
     <title>Eletric world Car</title>
 </head>
 <body>
@@ -17,17 +18,21 @@
         <nav id="nav">
             <ul class="menu">
                 <a href="#Home"><li class="itens">Home</li></a>
-                <a href="#Sobre"><li class="itens">Sobre</li></a>
                 <a href="#Carros"><li class="itens">Carros</li></a>
+                <a href="#Sobre"><li class="itens">Sobre</li></a>
                 <a href=""><li class="itens">Noticias</li></a>
                 <a href=""><li class="itens"><img src="imagens/conta.svg" alt=""></li></a>
             </ul>
         </nav>
+
+        <div class="nav-toggle">
+            <img src="imagens/menu-icon.svg" alt="">
+        </div>
     </header>
 
     <main id="corpo">
         <section id="Home" class="margen">
-            <h1 class="titulo-home">Escolha o melhor carro</h1>
+            <h1 class="titulo-home">Os melhores carros <br> das marcas mais renomadas</h1>
             <h2 class="nome"><strong>Porsche Mission E</strong></h2>
             <img class="home-img" src="imagens/home.png" alt="">
     
@@ -52,23 +57,6 @@
             </div>
 
             
-        </section>
-
-        <section id="Sobre" class="margen">
-            <div>
-                <img class="sobre-img" src="imagens/sobre.png" alt="">
-                <div class="caixa-texto">
-                    <strong>2.500+</strong>
-                    <p >Sobrecarrega lugares ao longo de rotas populares</p>
-                </div>
-            </div>
-            <div class="texto">
-                <h2>Carros eletricos <br>Tecnologia do futuro</h2>
-            <p>
-                Veja o futuro com carros elétricos de alto desempenho produzido pela marca de renome. Eles apresentam construções e designs futurista com plataformas novas e inovadoras que duram muito tempo.
-            </p>
-            <a href="" class="botao">Saber Mais</a>
-            </div>
         </section>
 
         <section id="Carros" class="margen">
@@ -197,6 +185,25 @@
             </ul>
         </section>
 
+        <section id="Sobre" class="margen">
+            <div>
+                <img class="sobre-img" src="imagens/sobre.png" alt="">
+                <div class="caixa-texto">
+                    <strong>2.500+</strong>
+                    <p >Sobrecarrega lugares ao longo de rotas populares</p>
+                </div>
+            </div>
+            <div class="texto">
+                <h2>Carros eletricos <br>Tecnologia do futuro</h2>
+            <p>
+                Veja o futuro com carros elétricos de alto desempenho produzido pela marca de renome. Eles apresentam construções e designs futurista com plataformas novas e inovadoras que duram muito tempo.
+            </p>
+            <a href="" class="botao">Saber Mais</a>
+            </div>
+        </section>
+
+        
+
         <section id="newsletter">
           <div class="conteudo">
             <div>
@@ -214,7 +221,7 @@
     </main>
 
     <footer id="rodape" class="margen">
-        <div >
+        <div>
             <div class="logo">
                 <img class="logo-img" src="imagens/logo.svg" alt="">
                 <h4>Eletric world Car</h4> 
@@ -227,14 +234,14 @@
             </p>
         </div>
 
-        <div>
+        <div class="informaçoes">
             <h4>Informaçoes</h4> 
             <p><a href="">Solicite uma cotação</a></p>
             <p><a href="">Encontre um revendedor</a></p>
             <p><a href="">Contate-nos</a></p>
             <p><a href="">Serviços</a></p>
         </div>
-        <div>
+        <div class="redes">
             <h4>Siga-nos</h4>
             <a href=""><img src="imagens/facebook-icon.svg" alt="Facebook"></a>
             <a href=""><img src="imagens/instagram-icon.svg" alt="Instagram"></a>
