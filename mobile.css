@@ -5,21 +5,32 @@
 }
 
 @media (max-width:767px) {
-    .menu{
-        display: none;
-    }
-
-    #topo{
-        background-color: #4D84EC;
-    }
 
     html{
         font-size: small;
     }
 
-    .info{
+    section{
+        margin-bottom: 30px;
+    }
+
+    /*--------------------------------------topo-----------------------------*/
+
+    #topo{
+        background-color: #4D84EC;
+    }
+
+    .menu{
         display: none;
     }
+
+    /*--------------------------------------sobre-----------------------------*/
+
+    #Sobre{
+        display:none;
+    }
+
+    /*--------------------------------------card-----------------------------*/
 
     .card{
         width: 100px;
@@ -32,30 +43,25 @@
         margin-left: 0px;
     }
 
+    .info{
+        display: none;
+    }
+
     .comprar{
         display: none;
     }
 
-    #Sobre{
-        display:none;
-    }
+    /*--------------------------------------newsletter-----------------------------*/
 
-    .sobre-img{
-        width: 100%;
-        display: none;
-    }
-
-    .caixa-texto{
-        display: none;
-    }
-
-    .texto{
-        width: 100%;
+    #newsletter{
+        margin-top: 0px;
     }
 
     .conteudo img{
         display: none;
     }
+    
+    /*--------------------------------------rodape-----------------------------*/
 
     #rodape{
         display: inherit;

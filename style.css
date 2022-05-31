@@ -3,8 +3,6 @@
     --color2: #404040;
 }
 
-
-
 html{
     font-family: Verdana;
     color: white;
@@ -90,8 +88,6 @@ button{
 .itens{
     padding: 20px;
 }
-
-
 
 .menu li:hover{
     background-color: var(--color1);
