@@ -7,7 +7,7 @@
 @media (max-width:767px) {
 
     html{
-        font-size: small;
+        font-size: 0.8rem;
     }
 
     section{
@@ -32,8 +32,13 @@
 
     /*--------------------------------------card-----------------------------*/
 
+    .conjunto-card{
+        padding-left: 0px;
+        justify-content: center;
+    }
+
     .card{
-        width: 100px;
+        width: 130px;
         height: 160px;
         filter: drop-shadow(0px 4px 4px #000000af);
     }
@@ -60,11 +65,19 @@
     .conteudo img{
         display: none;
     }
+
+    .conteudo p{
+        padding: 0px 10px;
+    }
     
     /*--------------------------------------rodape-----------------------------*/
 
     #rodape{
         display: inherit;
+    }
+    
+    .desc{
+        width: 90%;
     }
 
     .informaçoes, .redes{
