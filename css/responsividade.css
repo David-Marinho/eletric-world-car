@@ -34,16 +34,24 @@
 
     .conjunto-card{
         padding-left: 0px;
-        justify-content: center;
+        justify-content: left;
     }
 
     .card{
-        width: 130px;
-        height: 160px;
-        filter: drop-shadow(0px 4px 4px #000000af);
+        width: 120px;
+        height: 140px;
+        background-color: #4D84EC;
+        border: 2px solid #1551C2;
+        transition: 0.1s;
+        font-size: smaller;
+        cursor: pointer;
     }
 
-    .carro{
+    .card:active{
+        background-color: #1551C2;
+    }
+
+    .carro{ 
         width: 100%;
         margin-left: 0px;
     }

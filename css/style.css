@@ -1,5 +1,6 @@
 :root{
-    --color1: #306BD9;
+    --primary-color: #306BD9;
+    --primary-color-light: #5c8eeb;
     --color2: #000000;
 }
 
@@ -39,7 +40,15 @@ section{
     padding-top: 70px;
 }
 
-
+::-webkit-scrollbar {
+    width: 0.6rem;
+    background-color: hsla(219, 4%, 16%);
+    border-radius:1rem;
+}
+  ::-webkit-scrollbar-thumb {
+    background-color: hsl(219, 4%, 24%);
+    border-radius: 1rem;
+}
 
 /*--------------------------------------botao-----------------------------*/
 
@@ -51,13 +60,13 @@ button{
     position: relative;
     top: 40px;
     padding: 20px 40px;
-    background-color: var(--color1);
+    background-color: var(--primary-color);
     border-radius: 5px;
     transition: 0.5s;
 }
 
 .botao:hover{
-    box-shadow: 0 0 30px 10px var(--color1);
+    box-shadow: 0 0 30px 10px var(--primary-color);
 }
 
 /*--------------------------------------topo-----------------------------*/
@@ -101,7 +110,7 @@ button{
 }
 
 .menu li:hover{
-    background-color: var(--color1);
+    background-color: var(--primary-color);
 }
 
 .nav-toggle{
@@ -183,7 +192,7 @@ button{
     margin-left: 2%;
     margin-bottom: 2%;
     background-color: #000000;
-    border: 1px solid var(--color1);
+    border: 1px solid var(--primary-color);
     border-radius: 10px;
     filter: drop-shadow(0px 4px 4px #00000040);
     font-size: 1em;
@@ -222,12 +231,13 @@ button{
     left: 185px;
     padding: 10px;
     border-radius: 10px 0px 10px 0px;
-    background-color: #4b78cc;
+    background-color: var(--primary-color-light);
     transition: 0.5s;
+    cursor:pointer
 }
 
 .comprar:hover{
-    background-color: var(--color1);
+    background-color: var(--primary-color);
 }
 
 /*--------------------------------------newsletter-----------------------------*/
