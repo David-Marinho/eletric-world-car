@@ -1,0 +1,285 @@
+:root{
+    --primary-color: #306BD9;
+    --primary-color-light: #5c8eeb;
+    --color2: #000000;
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(fontes/TESLA.ttf) format('truetype');
+}
+
+html{
+    font-family: Verdana;
+    color: white;
+    scroll-behavior: smooth;
+    min-width: 300px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+
+    background: linear-gradient(#141e30, #243b55);
+    text-align: center;
+}
+
+li, a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2, h3, p, a, strong{
+    margin-top: 0px;
+}
+
+section{
+    margin-bottom: 90px;
+    padding-top: 70px;
+}
+
+::-webkit-scrollbar {
+    width: 0.6rem;
+    background-color: hsla(219, 4%, 16%);
+    border-radius:1rem;
+}
+  ::-webkit-scrollbar-thumb {
+    background-color: hsl(219, 4%, 24%);
+    border-radius: 1rem;
+}
+
+/*--------------------------------------botao-----------------------------*/
+
+button{
+    border: 0px;
+}
+
+.botao{
+    position: relative;
+    top: 40px;
+    padding: 20px 40px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.botao:hover{
+    box-shadow: 0 0 30px 10px var(--primary-color);
+}
+
+/*--------------------------------------topo-----------------------------*/
+
+#topo{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(0deg, #25385c42, #25385c42), #1e283885;
+    backdrop-filter: blur(5px);
+    height: 60px;
+    z-index: 1;
+}
+
+.logo{
+    display: flex;
+    align-items: center;   
+    padding-left: 10px;
+}
+
+.logo strong{
+    font-family: titulo;
+}
+
+.nav{
+    height: 24px;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3, 0.8fr) 1fr 0.5fr;
+    align-items: center;
+    margin: 0px;
+    height: 60px;
+}
+
+.itens{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-nav{
+    padding: 0px 10px;
+}
+
+.menu li:hover{
+    background-color: var(--primary-color);
+}
+
+.nav-toggle{
+    margin-right: 40px;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+/*--------------------------------------home-----------------------------*/
+
+.titulo-home{
+    margin-bottom: 50px;
+}
+
+.home-img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.nome{
+    margin-bottom: 20px;
+}
+
+.dados{
+    display: grid;
+    grid-template-columns: 20% 50% 20%;
+    grid-auto-rows: minmax(300px, 480px);
+    justify-content: center;
+}
+
+.dados h3{
+    margin-bottom: 10px;
+}
+ 
+/*--------------------------------------sobre-----------------------------*/
+
+#Sobre{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sobre-img{
+    width: 480px;
+}
+
+.texto{
+    width: 448px;
+}
+
+.texto p{
+    text-align: justify;
+}
+
+.caixa-texto{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #1e283885;
+    backdrop-filter: blur(2px);
+    width: 158px;
+    padding: 10px;
+    position: relative;
+    bottom: 85px;
+    left: 310px;
+    border-radius: 20px;
+}
+
+/*--------------------------------------popular-----------------------------*/
+
+.conjunto-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*--------------------------------------card-----------------------------*/
+
+.card{
+    text-align: left;
+    width: 210px;
+    height: 269px;
+    padding: 32px 24px 24px 24px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    background-color: #00000080;
+    box-shadow: 6px 10px 25px #00000099;
+    border-radius: 10px;
+}
+
+.card h3{
+    width: fit-content;
+}
+
+.carro{
+    width: 180px;
+    margin-left: 32px;
+}
+
+.info{
+    margin: 10px 0px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info div{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-right: 30px;
+}
+
+.info div img{
+    margin-right: 5px;
+}
+
+.comprar{
+    position: relative;
+    bottom: 50px;
+    left: 185px;
+    padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+    background-color: var(--primary-color-light);
+    transition: 0.5s;
+    cursor:pointer
+}
+
+.comprar:hover{
+    background-color: var(--primary-color);
+}
+
+/*--------------------------------------newsletter-----------------------------*/
+
+#newsletter{
+    margin-top: 90px;
+    padding-bottom: 40px;
+    background-color: #172135;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.conteudo div{
+    width: 470px;
+}
+
+.conteudo div p{
+    text-align: justify;
+}
+
+.conteudo img{
+    width: 450px;
+}
+
+/*--------------------------------------rodape-----------------------------*/
+
+#rodape{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding-bottom: 20px;
+}
+
+.desc{
+    width: 400px;
+    padding-left: 10px;
+}
