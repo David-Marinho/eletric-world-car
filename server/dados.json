@@ -1,0 +1,14 @@
+{
+    "carro1": {
+        "modelo": "Porsche",
+        "nome": "911 Turbo S",
+        "velocidade-max": "330 km/h",
+        "cor": "Preto"
+    },
+    "carro2": {
+        "modelo": "Porsche",
+        "nome": "Taycan Turbo S",
+        "velocidade-max": "260 km/h",
+        "cor": "branco"
+    }
+}

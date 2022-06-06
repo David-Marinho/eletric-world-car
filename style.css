@@ -5,8 +5,14 @@ html{
 
 body{
     margin: 0px;
+<<<<<<< Updated upstream:style.css
     padding-left: 10px;
     background-color: #1d1d20;
+=======
+
+    background: linear-gradient(#141e30, #243b55);
+    text-align: center;
+>>>>>>> Stashed changes:css/style.css
 }
 
 li, a{
@@ -150,9 +156,16 @@ section{
     width: 210px;
     height: 269px;
     padding: 32px 24px 24px 24px;
+<<<<<<< Updated upstream:style.css
     margin-left: 30px;
     margin-bottom: 30px;
     background-color: #111213;
+=======
+    margin-left: 2%;
+    margin-bottom: 2%;
+    background-color: #00000080;
+    box-shadow: 6px 10px 25px #00000099;
+>>>>>>> Stashed changes:css/style.css
     border-radius: 10px;
 }
 
@@ -184,7 +197,11 @@ section{
 #newsletter{
     margin-top: 90px;
     padding-bottom: 40px;
+<<<<<<< Updated upstream:style.css
     background-color: #ffffff2d;
+=======
+    background-color: #172135;
+>>>>>>> Stashed changes:css/style.css
 }
 
 .conteudo{
