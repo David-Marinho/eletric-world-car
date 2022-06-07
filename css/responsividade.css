@@ -35,21 +35,23 @@
     .conjunto-card{
         padding-left: 0px;
         justify-content: left;
+        margin-left: 10px;
     }
 
     .card{
-        width: 120px;
-        height: 140px;
-        background-color: #4D84EC;
-        border: 2px solid #1551C2;
+        width: 110px;
+        height: 130px;
+        margin-right: 4%;
+        margin-bottom: 6%;
         transition: 0.1s;
         font-size: smaller;
         cursor: pointer;
     }
 
     .card:active{
-        background-color: #1551C2;
+        background-color: rgba(137, 198, 255, 0.795);
     }
+
 
     .carro{ 
         width: 100%;
@@ -90,5 +92,12 @@
 
     .informaçoes, .redes{
         display: none;
+    }
+}
+
+@media (max-width: 370px) {
+    .card{
+        box-shadow: 4px 7px 25px #00000075;
+        margin: 0px 7px 15px 0px;
     }
 }
