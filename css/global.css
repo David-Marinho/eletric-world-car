@@ -1,0 +1,16 @@
+body{
+        margin: 0px;
+        background: linear-gradient(#141e30, #243b55);
+        text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 0.6rem;
+    background-color: hsla(219, 4%, 16%);
+    border-radius:1rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: hsl(219, 4%, 24%);
+    border-radius: 1rem;
+}
