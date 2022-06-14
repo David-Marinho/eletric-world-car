@@ -1,4 +1,4 @@
-# eletric-world-car
+# Eletric-world-car
  Projeto de e-commerce de carros eletricos para a cadeira de desenvolvimento web
  
  ## Alunos:
