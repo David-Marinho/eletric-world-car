@@ -1,5 +1,5 @@
 # eletric-world-car
- Projeto de e-commerce para a cadeira de desenvolvimento web
+ Projeto de e-commerce de carros eletricos para a cadeira de desenvolvimento web
  
  ## Alunos:
  - Davi Matheus Alves de Oliveira
